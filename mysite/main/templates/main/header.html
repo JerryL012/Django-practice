@@ -1,0 +1,34 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>Title</title>
+    {% load static %}
+    <link href="{% static 'tinymce/css/prism.css' %}" rel="stylesheet">
+    {#   from https://materializecss.com/  #}
+    <!-- Compiled and minified CSS -->
+    <link href="{% static 'main/css/materialize.css' %}" rel="stylesheet">
+    <!-- Compiled and minified JavaScript -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/materialize/1.0.0/js/materialize.min.js"></script>
+
+</head>
+<br>
+<body>
+    {# Navbar #}
+    {% include "main/includes/navbar.html" %}
+    {# toast! #}
+    {% include "main/includes/messages.html" %}
+
+    <div class="container">
+        <br>
+        {# follow by the home.html here #}
+        {% block content %}
+        {% endblock %}
+    </div>
+
+</body>
+</html>
+{#add javaScript to initialize#}
+<script src = "{% static 'tinymce/js/prism.js' %}"></script>
+{#from the Initialization part of https://materializecss.com/collapsible.html#}
+<script>M.AutoInit();</script>
