@@ -1,0 +1,14 @@
+{% extends "main/header.html" %}
+
+{% block content %}
+    <form method="POST">
+        {#  csrf means cross site request forgery token to protect user info #}
+        {% csrf_token %}
+        {# form has some attributes #}
+        {{ form.as_p }}
+
+        <button class="btn" style="background-color: #00C853; color:wheat" type="submit">login</button>
+    </form>
+
+    If you don't already have an account, <a href="/register"><strong>register</strong></a> instead.
+{% endblock %}
