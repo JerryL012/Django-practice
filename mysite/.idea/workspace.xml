@@ -32,6 +32,7 @@
   <component name="FileTemplateManagerImpl">
     <option name="RECENT_TEMPLATES">
       <list>
+        <option value="Python Script" />
         <option value="HTML File" />
       </list>
     </option>
@@ -46,8 +47,17 @@
     <property name="DefaultHtmlFileTemplate" value="HTML File" />
     <property name="RunOnceActivity.ShowReadmeOnStart" value="true" />
     <property name="WebServerToolWindowFactoryState" value="false" />
-    <property name="last_opened_file_path" value="$PROJECT_DIR$" />
+    <property name="last_opened_file_path" value="$PROJECT_DIR$/main/templates/main" />
     <property name="settings.editor.selected.configurable" value="com.jetbrains.python.configuration.PyActiveSdkModuleConfigurable" />
+  </component>
+  <component name="RecentsManager">
+    <key name="MoveFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/templates/main" />
+    </key>
+    <key name="CopyFile.RECENT_KEYS">
+      <recent name="$PROJECT_DIR$/main/templates/main" />
+      <recent name="$PROJECT_DIR$/main/templates" />
+    </key>
   </component>
   <component name="RunManager">
     <configuration name="mysite" type="Python.DjangoServer" factoryName="Django server">
@@ -56,6 +66,7 @@
       <option name="PARENT_ENVS" value="true" />
       <envs>
         <env name="PYTHONUNBUFFERED" value="1" />
+        <env name="DJANGO_SETTINGS_MODULE" value="mysite.settings" />
       </envs>
       <option name="SDK_HOME" value="" />
       <option name="WORKING_DIRECTORY" value="" />
@@ -98,7 +109,20 @@
       <updated>1583166814936</updated>
       <workItem from="1583166818463" duration="2468000" />
       <workItem from="1583175885875" duration="10088000" />
-      <workItem from="1583743389398" duration="7868000" />
+      <workItem from="1583743389398" duration="32460000" />
+      <workItem from="1584090159237" duration="4541000" />
+      <workItem from="1584265656532" duration="1649000" />
+      <workItem from="1584285916918" duration="8504000" />
+      <workItem from="1586510895940" duration="103000" />
+      <workItem from="1587295377096" duration="602000" />
+      <workItem from="1587669147278" duration="9178000" />
+      <workItem from="1588955430632" duration="1084000" />
+      <workItem from="1589574324435" duration="561000" />
+      <workItem from="1590485760725" duration="13000" />
+      <workItem from="1590485781021" duration="30089000" />
+      <workItem from="1590829027795" duration="2090000" />
+      <workItem from="1590967050009" duration="2541000" />
+      <workItem from="1591051555065" duration="170000" />
     </task>
     <servers />
   </component>
@@ -106,13 +130,67 @@
     <option name="version" value="1" />
   </component>
   <component name="WindowStateProjectService">
-    <state width="219" height="457" key="HiddenNamespacesPopup" timestamp="1583185858911">
+    <state x="1714" y="37" key="#Notifications" timestamp="1584265833041">
+      <screen x="1440" y="-157" width="2560" height="1057" />
+    </state>
+    <state x="1714" y="37" key="#Notifications/1440.-157.2560.1057/0.23.1440.803@1440.-157.2560.1057" timestamp="1584265833041" />
+    <state x="1995" y="126" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog" timestamp="1584292959043">
+      <screen x="1440" y="-157" width="2560" height="1057" />
+    </state>
+    <state x="1995" y="126" key="#com.intellij.refactoring.safeDelete.UnsafeUsagesDialog/1440.-157.2560.1057/0.23.1440.803@1440.-157.2560.1057" timestamp="1584292959043" />
+    <state width="1208" height="477" key="DebuggerActiveHint" timestamp="1590674997244">
       <screen x="1440" y="-180" width="2560" height="1080" />
     </state>
+    <state width="1208" height="466" key="DebuggerActiveHint/1440.-157.2560.1057/0.23.1440.812@1440.-157.2560.1057" timestamp="1590672753890" />
+    <state width="1208" height="477" key="DebuggerActiveHint/1440.-180.2560.1080/0.0.1440.900@1440.-180.2560.1080" timestamp="1590674997244" />
+    <state width="2518" height="208" key="GridCell.Tab.0.bottom" timestamp="1590828765357">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="2518" height="208" key="GridCell.Tab.0.bottom/0.23.1440.812@0.23.1440.812" timestamp="1590828765357" />
+    <state width="2518" height="208" key="GridCell.Tab.0.bottom/1440.-180.2560.1080/0.0.1440.900@1440.-180.2560.1080" timestamp="1590675735830" />
+    <state width="2518" height="208" key="GridCell.Tab.0.center" timestamp="1590828765355">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="2518" height="208" key="GridCell.Tab.0.center/0.23.1440.812@0.23.1440.812" timestamp="1590828765355" />
+    <state width="2518" height="208" key="GridCell.Tab.0.center/1440.-180.2560.1080/0.0.1440.900@1440.-180.2560.1080" timestamp="1590675735827" />
+    <state width="2518" height="208" key="GridCell.Tab.0.left" timestamp="1590828765354">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="2518" height="208" key="GridCell.Tab.0.left/0.23.1440.812@0.23.1440.812" timestamp="1590828765354" />
+    <state width="2518" height="208" key="GridCell.Tab.0.left/1440.-180.2560.1080/0.0.1440.900@1440.-180.2560.1080" timestamp="1590675735826" />
+    <state width="2518" height="208" key="GridCell.Tab.0.right" timestamp="1590828765356">
+      <screen x="0" y="23" width="1440" height="812" />
+    </state>
+    <state width="2518" height="208" key="GridCell.Tab.0.right/0.23.1440.812@0.23.1440.812" timestamp="1590828765356" />
+    <state width="2518" height="208" key="GridCell.Tab.0.right/1440.-180.2560.1080/0.0.1440.900@1440.-180.2560.1080" timestamp="1590675735828" />
+    <state width="239" height="448" key="HiddenNamespacesPopup" timestamp="1584291569429">
+      <screen x="1440" y="-157" width="2560" height="1057" />
+    </state>
+    <state width="239" height="448" key="HiddenNamespacesPopup/1440.-157.2560.1057/0.23.1440.803@1440.-157.2560.1057" timestamp="1584291569429" />
     <state width="219" height="457" key="HiddenNamespacesPopup/1440.-180.2560.1080/0.0.1440.900@1440.-180.2560.1080" timestamp="1583185858911" />
-    <state x="221" y="89" key="SettingsEditor" timestamp="1583765762239">
-      <screen x="0" y="0" width="1440" height="900" />
+    <state x="1702" y="113" key="IDE.errors.dialog" timestamp="1584265824665">
+      <screen x="1440" y="-157" width="2560" height="1057" />
+    </state>
+    <state x="1702" y="113" key="IDE.errors.dialog/1440.-157.2560.1057/0.23.1440.803@1440.-157.2560.1057" timestamp="1584265824665" />
+    <state x="1833" y="-73" key="SettingsEditor" timestamp="1590830931304">
+      <screen x="1440" y="-180" width="2560" height="1080" />
     </state>
     <state x="221" y="89" key="SettingsEditor/0.0.1440.900@0.0.1440.900" timestamp="1583765762239" />
+    <state x="1833" y="-73" key="SettingsEditor/1440.-180.2560.1080/0.23.1440.877@1440.-180.2560.1080" timestamp="1590830931304" />
+    <state x="1698" y="-23" width="1435" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog" timestamp="1584292867974">
+      <screen x="1440" y="-157" width="2560" height="1057" />
+    </state>
+    <state x="1698" y="-23" width="1435" height="857" key="com.intellij.history.integration.ui.views.FileHistoryDialog/1440.-157.2560.1057/0.23.1440.803@1440.-157.2560.1057" timestamp="1584292867974" />
+  </component>
+  <component name="XDebuggerManager">
+    <breakpoint-manager>
+      <breakpoints>
+        <line-breakpoint enabled="true" type="django-line">
+          <url>file://$PROJECT_DIR$/main/templates/main/home.html</url>
+          <line>20</line>
+          <option name="timeStamp" value="1" />
+        </line-breakpoint>
+      </breakpoints>
+    </breakpoint-manager>
   </component>
 </project>
