@@ -24,8 +24,8 @@ SECRET_KEY = '##qfg7ej%!upy78%@d(9n4o^@e2az3$5pv-_8fih*84=1gg#8_'
 
 # SECURITY WARNING: don't run with debug turned on in production!
 DEBUG = True
-
-ALLOWED_HOSTS = []
+# find this in server, Reverse DNS(Host name)
+ALLOWED_HOSTS = ['106.53.243.13']
 # django-tinymce4-lite, add TinyMCE4-lite configurations
 TINYMCE_DEFAULT_CONFIG = {
     'height': 360,
